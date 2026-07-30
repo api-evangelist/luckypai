@@ -1,8 +1,27 @@
 aid: luckypai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luckypai.png
 name: Luckypai
-description: Luckypai is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Luckypai (乐酷天 / LuckyPai Ltd) was a Chinese television home-shopping
+  company founded around 2006-2007 that grew into a leading nationwide TV and online
+  shopping network, selling home appliances, cosmetics, apparel, food, and digital
+  devices. It raised roughly $25M from investors including Lightspeed Venture Partners,
+  Intel Capital, and the LOTTE Group, and was acquired by Lotte Home Shopping in 2010
+  for approximately $160M. It was surfaced as a portfolio company of
+  lightspeed-venture-partners and added to the API Evangelist network as a stub. As
+  an acquired, no-longer-operating consumer commerce business it has no public
+  developer program, API, or independent web presence; the luckypai.com domain is
+  parked and listed for sale.
 url: https://raw.githubusercontent.com/api-evangelist/luckypai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,28 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: lotte-home-shopping
+x-acquired-year: 2010
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Home Shopping
+- Consumer
+- China
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
